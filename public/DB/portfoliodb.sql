@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 21, 2018 at 07:48 AM
+-- Generation Time: Oct 05, 2018 at 06:17 PM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 7.0.8
 
@@ -127,6 +127,30 @@ INSERT INTO `tbl_category` (`category_id`, `category_name`, `category_descriptio
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tbl_sub_menu`
+--
+
+CREATE TABLE `tbl_sub_menu` (
+  `id` int(11) NOT NULL,
+  `menu_id` int(11) NOT NULL,
+  `sub_menu_title` varchar(256) NOT NULL,
+  `sub_menu_description` longtext NOT NULL,
+  `status` tinyint(1) DEFAULT NULL,
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `tbl_sub_menu`
+--
+
+INSERT INTO `tbl_sub_menu` (`id`, `menu_id`, `sub_menu_title`, `sub_menu_description`, `status`, `created_at`, `updated_at`) VALUES
+(1, 2, 'Services', 'Services Description<span style="white-space:pre">	</span>', 1, '2018-10-03 07:00:15', '2018-10-05 10:35:12'),
+(2, 1, 'Test 1', 'test es<br>', 1, '2018-10-03 08:13:54', '2018-10-03 08:13:54');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `tbl_users`
 --
 
@@ -220,6 +244,12 @@ ALTER TABLE `tbl_category`
   ADD PRIMARY KEY (`category_id`);
 
 --
+-- Indexes for table `tbl_sub_menu`
+--
+ALTER TABLE `tbl_sub_menu`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `tbl_users`
 --
 ALTER TABLE `tbl_users`
@@ -261,6 +291,11 @@ ALTER TABLE `tbl_blog`
 --
 ALTER TABLE `tbl_category`
   MODIFY `category_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+--
+-- AUTO_INCREMENT for table `tbl_sub_menu`
+--
+ALTER TABLE `tbl_sub_menu`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `tbl_users`
 --
