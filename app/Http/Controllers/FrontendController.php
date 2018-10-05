@@ -18,8 +18,12 @@ class FrontendController extends Controller
     {
         //$home = view('front_end.home');
         $header = view('front_end.header');
-        
-        return view('front_end.master')->with('header',$header);
+        $slider = view('front_end.pages.slider');
+        $recentPhoto=view('front_end.pages.recentPhoto');
+        return view('front_end.master')
+                ->with('header',$header)
+                ->with('slider',$slider)
+                ->with('recentPhoto',$recentPhoto);
         
     }
 

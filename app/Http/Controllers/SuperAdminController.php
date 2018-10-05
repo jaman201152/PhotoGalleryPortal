@@ -225,7 +225,7 @@ class SuperAdminController extends Controller
         DB::table('tbl_blog')
                 ->where('blog_id',$id)
                 ->delete();
-        return Redirect::to('manage-category');
+        return Redirect::to('manage-blog');
     }
 
     /**
