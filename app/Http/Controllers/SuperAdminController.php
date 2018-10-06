@@ -106,9 +106,12 @@ class SuperAdminController extends Controller
         $data['blog_long_description'] = $request->txtlong_description;
         $data['publication_status'] = $request->txtpublication_status;
         $data['author_name'] = $request->txtauthor_name;
+        $data['isSlideShow']=$request->isSlideShow;
+        date_default_timezone_set("Asia/Dhaka");
+        $data['created_at']=date('Y-m-d H:i:s');
         $image = $request->file('txtblog_image');
         if($image){
-            $image_name = str_random(10);
+             $image_name = substr($image->getClientOriginalName(),0,20);
             $ext = strtolower($image->getClientOriginalExtension());
             $image_full_name = $image_name.'.'.$ext;
             $upload_path = 'public/blog_image/';
@@ -162,9 +165,13 @@ class SuperAdminController extends Controller
         $data['blog_long_description'] = $request->txtlong_description;
         $data['publication_status'] = $request->txtpublication_status;
         $data['author_name'] = $request->txtauthor_name;
+        $data['isSlideShow']=$request->isSlideShow;
+        date_default_timezone_set("Asia/Dhaka");
+        $data['updated_at']=date('Y-m-d H:i:s');
         $image = $request->file('txtblog_image');
         if($image){
-            $image_name = str_random(10);
+            // $image_name = str_random(10);
+            $image_name = substr($image->getClientOriginalName(),0,20);
             $ext = strtolower($image->getClientOriginalExtension());
             $image_full_name = $image_name.'.'.$ext;
             $upload_path = 'public/blog_image/';

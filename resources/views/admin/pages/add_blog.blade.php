@@ -76,9 +76,25 @@
                     <label class="control-label" for="fileInput">Blog Image</label>
                     <div class="controls">
                         <input class="input-file uniform_on" name="txtblog_image" id="fileInput" type="file">
+                     
                     </div>
-                </div>  
-                <div class="control-group hidden-phone">
+                </div>
+              
+                <div class="control-group">
+                    <label class="control-label">Show this image in Slider</label>
+                    <div class="controls">
+                        <label class="radio">
+                            <input type="radio" name="isSlideShow" id="isSlideShow1" value="1">
+                           Yes
+                        </label>
+<!--                        <div style="clear:both"></div>-->
+                        <label class="radio">
+                            <input type="radio" name="isSlideShow" id="isSlideShow0" value="0"  checked="">
+                           No
+                        </label>
+                    </div>
+                </div>
+                <div class="control-group">
                     <label class="control-label" for="textarea2">Publication Status</label>
                     <div class="controls">
                         <select name="txtpublication_status">

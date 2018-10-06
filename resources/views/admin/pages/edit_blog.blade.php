@@ -76,13 +76,38 @@
                     </div>
                 </div>
                 <div class="control-group">
-                    <label class="control-label" for="fileInput">Blog Image</label>
+                    <label class="control-label" for="fileInput">Creative Image</label>
                     <div class="controls">
                         <img src="{{URL::to($edit_info->blog_image)}}" height="80" width="80">
                         <input class="input-file uniform_on" name="txtblog_image" id="fileInput" type="file">
                     </div>
-                </div>  
-                <div class="control-group hidden-phone">
+                </div>
+                      <div class="control-group">
+                    <label class="control-label">Show this image in Slider</label>
+                    <div class="controls">
+                        @if($edit_info->isSlideShow==1)
+                        <label class="radio">
+                            <input type="radio" name="isSlideShow" id="isSlideShow1" value="1"  checked="">
+                           Yes
+                        </label>
+                         <label class="radio">
+                            <input type="radio" name="isSlideShow" id="isSlideShow0" value="0">
+                           No
+                        </label>
+                        @else
+<!--                        <div style="clear:both"></div>-->
+                        <label class="radio">
+                            <input type="radio" name="isSlideShow" id="isSlideShow1" value="1">
+                           Yes
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="isSlideShow" id="isSlideShow0" value="0"   checked="">
+                           No
+                        </label>
+                            @endif
+                    </div>
+                </div>
+                <div class="control-group">
                     <label class="control-label" for="textarea2">Publication Status</label>
                     <div class="controls">
                         <select name="txtpublication_status">
@@ -109,7 +134,7 @@
                 <div class="form-actions">
                     <input type="hidden" name="txtblog_id" value="{{$edit_info->blog_id}}">
                     <button type="submit" class="btn btn-primary">Update</button>
-                    <button type="reset" class="btn">Cancel</button>
+                    <a href="{{URL::to('/manage-blog')}}" class="btn">Cancel</a>
                 </div>
             </fieldset>
             {!! Form::close() !!}

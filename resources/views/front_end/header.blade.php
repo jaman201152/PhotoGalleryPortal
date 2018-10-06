@@ -7,7 +7,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <ul class="topleft-info">
-                                    <li><i class="fa fa-phone"></i> +62 088 999 123</li>
+                                    <li><i class="fa fa-phone"></i> +0123456</li>
                                 </ul>
                             </div>
                             <div class="col-md-6">
@@ -33,7 +33,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" width="199" height="52" /></a>
+                            <a class="navbar-brand" href="index.html"><img src="{{URL::to('public/front_end/img/logo.png')}}" alt="" width="199" height="52" /></a>
                         </div>
                         <div class="navbar-collapse collapse ">
                             <ul class="nav navbar-nav">
