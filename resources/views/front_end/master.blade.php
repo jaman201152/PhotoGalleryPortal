@@ -50,23 +50,7 @@
 
             </section>
             
-            <section class="callaction">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="cta-text">
-                                <h2>Awesome site template <span>corporate</span> business</h2>
-                                <p> Etiam adipiscing, justo quis feugiat.Suspendisse eu erat quam. Vivamus porttitor eros quis nisi lacinia sed interdum</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="cta-btn">
-                                <a href="#" class="btn btn-theme btn-lg">Grab it now <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+     
 
             <section id="content">
                 <div class="container">
@@ -80,72 +64,14 @@
                     </div>
                 </div>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="row">
-                                <div class="col-sm-3 col-md-3 col-lg-3">
-                                    <div class="box">
-                                        <div class="aligncenter">
-                                            <div class="icon">
-                                                <i class="fa fa-desktop fa-5x"></i>
-                                            </div>
-                                            <h4>Fully responsive</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3 col-md-3 col-lg-3">
-                                    <div class="box">
-                                        <div class="aligncenter">
-                                            <div class="icon">
-                                                <i class="fa fa-file-code-o fa-5x"></i>
-                                            </div>
-                                            <h4>Fully responsive</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3 col-md-3 col-lg-3">
-                                    <div class="box">
-                                        <div class="aligncenter">
-                                            <div class="icon">
-                                                <i class="fa fa-paper-plane-o fa-5x"></i>
-                                            </div>
-                                            <h4>Fully responsive</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3 col-md-3 col-lg-3">
-                                    <div class="box">
-                                        <div class="aligncenter">
-                                            <div class="icon">
-                                                <i class="fa fa-cubes fa-5x"></i>
-                                            </div>
-                                            <h4>Fully responsive</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- divider -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="solidline">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end divider -->
-
+           
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="row">
                                 <div class="col-sm-6 col-lg-6">
-                                    <h4>About our company</h4>
+                                    <h4>About Me</h4>
                                     <p><strong>Meliore inciderint qui ne. Suas cotidieque vel ut lobortis reformidans duo</strong></p>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae odit iste exercitationem praesentium deleniti nostrum laborum rem id nihil tempora. Adipisci ea commodi unde nam placeat cupiditate quasi a ducimus rem consequuntur ex eligendi minima
@@ -155,29 +81,7 @@
                                         Mel explicari adipiscing consectetuer no, no mel apeirian scripserit repudiandae, ad assum mundi scribentur eam. Graecis offendit phaedrum eu his, eius ferri quidam eos ad, quis delenit vel ei. Alia modus facete te eos, eu tation appellantur per
                                     </p>
                                 </div>
-                                <div class="col-sm-6 col-lg-6">
-                                    <h4>Projects</h4>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                                            40% Complete (success)
-                                        </div>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                                            20% Complete
-                                        </div>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                            60% Complete (warning)
-                                        </div>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                            80% Complete
-                                        </div>
-                                    </div>
-                                </div>
+                        
                             </div>
                         </div>
                     </div>
@@ -422,7 +326,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="copyright">
-                                    <p>&copy; Sailor Theme - All Right Reserved</p>
+                                    <p>&copy; Color Thought Of Maisha - All Right Reserved</p>
                                     <div class="credits">
                                         <!--
 All the links in the footer should remain intact. 
@@ -430,7 +334,7 @@ You can delete the links only if you purchased the pro version.
 Licensing information: https://bootstrapmade.com/license/
 Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Sailor
                                         -->
-                                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                                        Developed by <a href="http://www.saraitsolution.com/" target="_blank">SaraItSolution.com</a>
                                     </div>
                                 </div>
                             </div>
